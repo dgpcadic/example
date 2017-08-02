@@ -1,0 +1,90 @@
+.cover{
+    background-image: url("cover.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.avatar img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+}
+.feature{
+    position: relative;
+    border: 1px solid #f3f3f3;
+    border-radius: 2px;
+}
+.info{
+    height: 200px;
+}
+.info p{
+    text-align: center;
+}
+.name {
+    padding-top: 50px;
+}
+
+.thumb img{
+    width: 80px;
+    height: 80px;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.experience{
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.thumb {
+    padding: 20px;
+    margin-right: 20px;
+}
+.detail-info{
+    border-bottom: 1px solid #f3f3f3;
+    width: 100%;
+    padding-right: 15px;
+}
+.job-detail-mission{
+    margin-top: 30px;
+}
+.media-item {
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06), 0 2px 5px 0 rgba(0,0,0,0.03);
+    margin-bottom: 15px;
+}
+.media-item-image img{
+    width: 100%;
+}
+.media-item-description{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.location span{
+    padding-right: 10px;
+}
+h1{
+    text-align: center;
+}
+@media only screen and (max-width: 800px) and (min-width: 320px) and (orientation: portrait) {
+    .flex{
+        display: block;
+    }
+    .thumb {
+        margin: 0px;
+        padding: 0px;
+    }
+    .thumb img {
+        width: 100%;
+        height: initial;
+    }
+    .detail-info{
+        padding-right: 0px;
+    }
+}
